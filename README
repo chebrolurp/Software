@@ -1,0 +1,39 @@
+Features:
+=========
+This QUARKit Flash Programmer is designed in Python.
+
+	-- It is tested on both Linux and WinXP
+	-- It is tested with USB-to-Serial Dongle (carefully install driver and select appropriate port)
+
+Packages Required (for Lin and Win):
+===================================
+	1. Python with Tkinter support
+	2. pyserial package (pyserial version is same as the Python version)
+
+
+How to run QUARKit Flash Programmer application in Lin/Win from Source?
+====================================================================
+	-- Run qtsprog.py to start the programmer application
+
+	# python qtsprog.py
+
+How to run QUARKit Flash Programmer application in Windows?
+===========================================================
+	-- Install using quarkit-programmer-setup.exe
+	-- Launch programmer from "All Programs" menu.
+	
+Update(12th May 19)
+==================
+for Ubuntu 16.04 and greater the following Change should be done
+    -import tkinter - import Tkinter
+    -import Image  - import PIL.Image as Image
+    -import ImageTk - import PIL.ImageTk as ImageTk
+    
+Update (3rd June 2019)
+=====================
+- New Uprog GUI for ISP Progarmming
+- No spaces and special characteristics should be used in filenames.
+- 
+
+Uprog1 is for Python3
+Uprog is for Python2

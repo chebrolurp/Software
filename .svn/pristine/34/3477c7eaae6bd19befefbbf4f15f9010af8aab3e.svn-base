@@ -1,0 +1,3 @@
+pushd /home/stm/Projects/quarkit/programmer/software/current/ > /dev/null 
+python qtsprog.py
+popd > /dev/null
